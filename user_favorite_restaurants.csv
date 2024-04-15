@@ -1,0 +1,61 @@
+Timestamp,user_email,restaurant_name,Restaurant Yelp Link (not required),user_restaurant_cuisine,user_occasion,user_num_times_visited,user_rating,user_price_rating,user_meal_size,user_attributes,user_meal_type
+2/23/2024 9:30:03,test_user@gmail.com,Ugly Baby,,Thai,"Dinner with a Friend, Wanted to try something new",1,4.8,$$ ($11-$30/person),Full Meal,,Dinner
+2/26/2024 9:05:15,test_user@gmail.com,4 Charles Prime Rib,,American,"Celebration(birthday, graduation, etc.), Fine Dining",1,4.8,$$$$ (>$61/person),Full Meal,,Dinner
+2/26/2024 9:05:51,test_user@gmail.com,Jungsik,,Korean,Fine Dining,1,5,$$$$ (>$61/person),Full Meal,,Dinner
+2/26/2024 9:06:34,test_user@gmail.com,Claud,,European,"Dinner with a Friend, Celebration(birthday, graduation, etc.)",3,4.85,$$$$ (>$61/person),Full Meal,,Diner
+2/26/2024 9:07:40,test_user@gmail.com,Breakfast by Salt's Cure,,Brunch,Regular(you visit often or are a frequent customer),3,4.25,$$ ($11-$30/person),Full Meal,,"Breakfast, Brunch"
+2/26/2024 9:08:18,test_user@gmail.com,Restaurant Yuu,,Japanese French,Fine Dining,1,4.75,$$$ ($31-$60/person),Full Meal,,Dinner
+2/26/2024 9:08:43,test_user@gmail.com,Lord's,,British,"Dinner with a Friend, Celebration(birthday, graduation, etc.)",1,4.8,$$$ ($31-$60/person),Full Meal,,Dinner
+2/28/2024 13:32:26,test_user@gmail.com,House of Joy,,Dim Sum,"Celebration(birthday, graduation, etc.)",1,4.65,$$ ($11-$30/person),Full Meal,,"Brunch, Lunch, Dinner"
+3/1/2024 17:18:13,test_user@gmail.com,Magnolia Bakery,,Bakery,"Celebration(birthday, graduation, etc.)",2,3,$$ ($11-$30/person),"Dessert (ex. cake, ice cream, etc.)",,Dessert
+3/1/2024 17:19:39,test_user@gmail.com,Murray's Bagels,,"Breakfast & Brunch, Bagels",Regular(you visit often or are a frequent customer),5+,3.75,$ (<$10/person),Small meal (Appetizer-like portion),,Breakfast
+3/1/2024 17:24:53,test_user@gmail.com,Via Carota ,,"European, Italian","Meal with a Friend, Fine Dining",4,4.5,$$$ ($31-$60/person),Full Meal,,"Lunch, Dinner"
+3/1/2024 17:26:05,test_user@gmail.com,Momoya (Chelsea),,"Japanese, Sushi",Meal with a Friend,1,3.25,$$$ ($31-$60/person),Full Meal,,Dinner
+3/1/2024 17:27:01,test_user@gmail.com,Morandi,,Italian,Meal with a Friend,2,3.75,$$$ ($31-$60/person),Full Meal,,Lunch
+3/1/2024 17:27:55,test_user@gmail.com,Lombardi's Pizza,,"Italian, Pizza",Takeout,1,3.5,$$ ($11-$30/person),Full Meal,,"Lunch, Dinner"
+3/1/2024 17:28:54,test_user@gmail.com,Tomo21 Sushi,,"Japanese, Sushi",Takeout,2,3.75,$$ ($11-$30/person),"Full Meal, Small meal (Appetizer-like portion)",,"Brunch, Lunch"
+3/1/2024 17:29:58,test_user@gmail.com,Boqueria Soho,,Spanish,Meal with a Friend,1,3.25,$$$ ($31-$60/person),"Full Meal, Small meal (Appetizer-like portion)",,"Brunch, Lunch"
+3/1/2024 17:35:43,test_user@gmail.com,Tsuru Ton Tan(Union Square),,"Japanese, Ramen",Regular,4,3.5,$$ ($11-$30/person),Full Meal,,"Lunch, Dinner"
+3/1/2024 17:37:51,test_user@gmail.com,Ippudo NY,,"Japanese, Ramen",Meal with a Friend,3,3.25,$$ ($11-$30/person),Full Meal,,"Lunch, Dinner"
+3/1/2024 17:39:10,test_user@gmail.com,Somtum Der,,Thai,"Regular, Meal with a Friend, Celebration",5+,4.25,$$ ($11-$30/person),Full Meal,,"Lunch, Dinner"
+3/1/2024 17:40:47,test_user@gmail.com,Ichiran (Midtown),,"Japanese, Ramen",Meal with a Friend,1,4.5,$$ ($11-$30/person),Full Meal,,Dinner
+3/1/2024 17:41:32,test_user@gmail.com,Lan Larb,,Thai,Takeout,1,3,$$ ($11-$30/person),Full Meal,"Takeout Friendly, Delivery Friendly","Lunch, Dinner"
+3/1/2024 17:42:30,test_user@gmail.com,BaekJeong,,"Korean, Korean BBQ",Regular,4,4,$$$ ($31-$60/person),Full Meal,,Dinner
+3/1/2024 17:43:52,test_user@gmail.com,Dominique Ansel Bakery,,Bakery,Takeout,3,4.25,$$ ($11-$30/person),"Snack (ex. fries, onion rings, etc.), Dessert (ex. cake, ice cream, etc.)",Takeout Friendly,Dessert
+3/1/2024 17:45:44,test_user@gmail.com,Nougatine at Jean-Georges,,"European, French","Celebration, Fine Dining",1,4.25,$$$$ (>$61/person),Full Meal,"Good Ambience, Date Night Friendly",Dinner
+3/1/2024 18:02:16,test_user@gmail.com,Ines,,"Cafe, Coffee Shop",Takeout,3,3.75,$ (<$10/person),Coffee,Location was Convenient,Coffee
+3/1/2024 18:03:29,test_user@gmail.com,Thep Thai Restaurant,,Thai,Takeout,2,3.75,$$ ($11-$30/person),"Full Meal, Small meal (Appetizer-like portion)",,"Lunch, Dinner"
+3/1/2024 18:04:32,test_user@gmail.com,Soothr,,Thai,Regular,5+,4.25,$$ ($11-$30/person),Full Meal,,"Lunch, Dinner"
+3/1/2024 18:05:45,test_user@gmail.com,Shake Shack,,"Burgers, Fast Food","Regular, Takeout",5+,4.5,$$ ($11-$30/person),"Full Meal, Small meal (Appetizer-like portion), Snack (ex. fries, onion rings, etc.)",,"Lunch, Dinner"
+3/1/2024 18:06:36,test_user@gmail.com,Los Tacos No. 1,,Mexican,"Regular, Takeout",5+,4.75,$$ ($11-$30/person),"Full Meal, Small meal (Appetizer-like portion), Snack (ex. fries, onion rings, etc.)",Quick & Easy Meal,"Lunch, Dinner"
+3/1/2024 18:07:15,test_user@gmail.com,Jua,,"Korean, Korean Fusion",Regular,5+,5,$$$ ($31-$60/person),Full Meal,,Dinner
+3/1/2024 18:08:16,test_user@gmail.com,Dhamaka,,Indian,"Meal with a Friend, Fine Dining",1,4.75,$$$ ($31-$60/person),Full Meal,Good Ambience,Dinner
+3/1/2024 18:09:13,test_user@gmail.com,Claud,,"European, Wine Bar",Celebration,3,4.9,$$ ($11-$30/person),Drinks,Good Ambience,"Wine, Cocktails"
+3/1/2024 18:10:07,test_user@gmail.com,Sadelle's New York,,Breakfast & Brunch,Celebration,3,4.25,$$ ($11-$30/person),"Full Meal, Small meal (Appetizer-like portion)",,"Breakfast, Brunch"
+3/1/2024 18:11:01,test_user@gmail.com,Playa Bowls,,Healthy,"Regular, Takeout",5+,3.25,$$ ($11-$30/person),"Small meal (Appetizer-like portion), Snack (ex. fries, onion rings, etc.)","Healthy, Quick & Easy Meal","Breakfast, Lunch"
+3/1/2024 18:11:47,test_user@gmail.com,Hello Saigon,,Vietnamese,Takeout,5+,4,$$ ($11-$30/person),"Full Meal, Small meal (Appetizer-like portion)","Quick & Easy Meal, Takeout Friendly","Lunch, Dinner"
+3/1/2024 18:12:38,test_user@gmail.com,Hay Hay Roasted,,Chinese,"Regular, Takeout",5+,4,$$ ($11-$30/person),Full Meal,"Quick & Easy Meal, Takeout Friendly","Lunch, Dinner"
+3/2/2024 14:42:51,test_user@gmail.com,Don Angie,,"Italian, Italian American","Meal with a Friend, Celebration",1,4.25,$$$ ($31-$60/person),Full Meal,"Good Ambience, Date Night Friendly",Dinner
+3/2/2024 14:44:44,test_user@gmail.com,Lilia,,Italian,"Meal with a Friend, Celebration",1,4.6,$$$ ($31-$60/person),"Full Meal, Dessert (ex. cake, ice cream, etc.)","Good Ambience, Date Night Friendly","Dinner, Dessert"
+3/2/2024 14:44:44,test_user@gmail.com,Rezdora,,Italian,"Meal with a Friend, Celebration",1,4,$$$$ (>$61/person),Full Meal,"Good Ambience, Date Night Friendly",Dinner
+3/2/2024 14:44:44,test_user@gmail.com,New Wonjo,,Korean,"Meal with a Friend, Regular, Takeout",5+,4.25,$$ ($11-$30/person),Full Meal,"Takeout Friendly, Quick & Easy Meal","Lunch, Dinner"
+3/2/2024 14:44:44,test_user@gmail.com,Nubiani,,Korean,"Meal with a Friend, Celebration",2,4.5,$$$$ (>$61/person),Full Meal,"Good Ambience, Date Night Friendly","Lunch, Dinner"
+3/2/2024 14:44:44,test_user@gmail.com,BCD Tofu House,,Korean,"Meal with a Friend, Regular, Takeout",5+,3.75,$$$ ($31-$60/person),Full Meal,"Takeout Friendly, Quick & Easy Meal","Lunch, Dinner"
+3/2/2024 14:44:44,test_user@gmail.com,12 Chairs (Soho),,"Brunch, Israeli","Meal with a Friend, Celebration, Takeout, Regular",5+,3.5,$$ ($11-$30/person),Full Meal,"Good Ambience, Date Night Friendly, Takeout Friendly","Lunch, Dinner, Brunch"
+3/2/2024 14:44:44,test_user@gmail.com,Springbone Kitchen (3rd St),,Healthy,Takeout,3,3.75,$$ ($11-$30/person),Full Meal,Quick & Easy Meal,"Lunch, Dinner"
+3/2/2024 14:44:44,test_user@gmail.com,Sappe,,Thai,"Meal with a Friend, Celebration",1,4.6,$$ ($11-$30/person),Full Meal,"Good Ambience, Date Night Friendly, Takeout Friendly",Dinner
+3/2/2024 14:44:44,test_user@gmail.com,KazuNori (28th),,Japanese,"Meal with a Friend, Celebration",5+,4.25,$$ ($11-$30/person),Full Meal,"Good Ambience, Date Night Friendly","Dinner, Lunch"
+3/2/2024 14:44:44,test_user@gmail.com,Bagels & Schmear,,Breakfast & Brunch,Takeout,5+,4.25,$$ ($11-$30/person),Full Meal,"Takeout Friendly, Quick & Easy Meal","Breakfast, Brunch"
+3/2/2024 14:44:44,test_user@gmail.com,Monkey Bar,,American,"Meal with a Friend, Celebration",1,4.5,$$$ ($31-$60/person),Full Meal,"Good Ambience, Date Night Friendly","Dinner, Lunch"
+3/2/2024 14:44:44,test_user@gmail.com,Misi,,Italian,Meal with a Friend,1,3.5,$$$ ($31-$60/person),Full Meal,"Good Ambience, Date Night Friendly",Dinner
+3/2/2024 14:44:44,test_user@gmail.com,S&P Lunch,,American,"Meal with a Friend, Takeout",1,4,$$ ($11-$30/person),Full Meal,Quick & Easy Meal,Lunch
+3/2/2024 14:44:44,test_user@gmail.com,Libertine,,French,Meal with a Friend,1,4.25,$$$ ($31-$60/person),Full Meal,"Good Ambience, Date Night Friendly",Dinner
+3/2/2024 14:44:44,test_user@gmail.com,7th Street Burger (East Village),,American,"Meal with a Friend, Takeout",1,4.25,$ (<$10/person),Full Meal,Quick & Easy Meal,"Lunch, Dinner"
+3/2/2024 14:44:44,test_user@gmail.com,Sami & Susu,,Mediterranean,Meal with a Friend,1,3.75,$$$ ($31-$60/person),Full Meal,"Date Night Friendly, Good Ambience",Dinner
+3/2/2024 14:44:44,test_user@gmail.com,Kat'z Delicatessen,,Deli,"Meal with a Friend, Takeout",3,4.25,$$ ($11-$30/person),Full Meal,Quick & Easy Meal,"Lunch, Dinner"
+3/2/2024 14:44:44,test_user@gmail.com,Laser Wolf Brooklyn,,"Israeli, Brunch",Meal with a Friend,1,4.25,$$$ ($31-$60/person),Full Meal,"Date Night Friendly, Good Ambience",Dinner
+3/2/2024 14:44:44,test_user@gmail.com,Francie,,French,Meal with a Friend,1,4,$$$$ (>$61/person),Full Meal,"Date Night Friendly, Good Ambience",Dinner
+3/2/2024 14:44:44,test_user@gmail.com,Daniel,,French,"Meal with a Friend, Celebration",1,4.25,$$$$ (>$61/person),Full Meal,"Date Night Friendly, Good Ambience",Dinner
+3/2/2024 14:44:44,test_user@gmail.com,886,,Taiwanese,"Meal with a Friend, Takeout",5+,4,$$ ($11-$30/person),Full Meal,Quick & Easy Meal,"Lunch, Dinner"
+3/2/2024 14:44:44,test_user@gmail.com,Atoboy,,Korean Fusion,"Meal with a Friend, Celebration, Fine Dining",1,4.25,$$$$ (>$61/person),Full Meal,"Date Night Friendly, Good Ambience",Dinner
+3/2/2024 14:44:44,test_user@gmail.com,Cho Dang Gol,,Korean,Meal with a Friend,1,4.25,$$ ($11-$30/person),Full Meal,Quick & Easy Meal,"Lunch, Dinner"
