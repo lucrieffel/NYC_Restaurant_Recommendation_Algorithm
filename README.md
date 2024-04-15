@@ -1,4 +1,4 @@
-# NYC_Restaurant_Recommendation_Algorithm
+# NYC Restaurant Recommendation Algorithm
 
 # Sources & References: 
 TensorFlow TFRS Tutorial:https://github.com/tensorflow/recommenders/blob/main/docs/examples/multitask.ipynb
