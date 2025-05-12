@@ -11,7 +11,9 @@ This project implements a sophisticated recommendation system for New York City 
 
 ## Website(draft) Demo
 <div align="center">
-  <video src="video_demo/taste_ai_demo.mov" width="640" height="360" controls preload></video>
+  <a href="https://youtu.be/ngF1s4eexYY" target="_blank">
+    <img src="https://img.youtube.com/vi/ngF1s4eexYY/maxresdefault.jpg" alt="NYC Restaurant Recommendation System Demo" width="640" height="360" border="0" />
+  </a>
 </div>
 
 **Note:** The web interface and recommendation model are still under active development as of May 2025. Stay tuned for an iOS app version coming soon!
