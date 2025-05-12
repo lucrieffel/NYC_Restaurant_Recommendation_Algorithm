@@ -7,7 +7,42 @@
 </div>
 
 ## Project Overview
-This project implements a sophisticated recommendation system for New York City restaurants using machine learning techniques and data from the Yelp Fusion API. The system combines collaborative filtering with content-based features to provide personalized restaurant recommendations based on user preferences, cuisine types, and neighborhood data.
+This project implements a sophisticated recommendation system for New York City restaurants using machine learning techniques and data from the Yelp Public API. The system combines collaborative filtering with content-based features to provide personalized restaurant recommendations based on user preferences, cuisine types, and neighborhood data.
+
+## Website(draft) Demo
+<div align="center">
+  <video src="video_demo/taste_ai_demo.mov" width="640" height="360" controls preload></video>
+</div>
+
+**Note:** The web interface and recommendation model are still under active development as of May 2025. Stay tuned for an iOS app version coming soon!
+
+### Website Tech Stack
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <img src="https://firebase.google.com/downloads/brand-guidelines/PNG/logo-logomark.png" width="60" alt="Firebase Logo"/>
+        <br><b>Firebase</b>
+        <br><small>Authentication, Database, Hosting</small>
+      </td>
+      <td align="center" width="33%">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" width="60" alt="TypeScript Logo"/>
+        <br><b>TypeScript</b>
+        <br><small>Frontend Development</small>
+      </td>
+      <td align="center" width="33%">
+        <img src="https://www.tensorflow.org/site-assets/images/project-logos/tensorflow-recommenders-logo-social.png" width="60" alt="TFRS Logo"/>
+        <br><b>TensorFlow Recommenders</b>
+        <br><small>Recommendation Engine</small>
+      </td>
+    </tr>
+  </table>
+</div>
+
+- **Firebase**: Used for user authentication, real-time database for storing user preferences and restaurant data, and web application hosting
+- **TypeScript**: Provides type safety and enhanced developer experience for building the interactive frontend interface
+- **TensorFlow Recommenders (TFRS)**: Powers the recommendation engine, allowing for client-side model execution through TensorFlow.js
 
 ## Model Architecture
 The recommendation system implements a multi-task learning approach combining two key objectives:
@@ -70,7 +105,7 @@ v                                                      v
                 Restaurant Recommendations
 ```
 
-The architecture consists of two parallel "towers" that process user and restaurant data separately, then performs two distinct but complementary tasks: rating prediction and similarity-based retrieval. The combined loss function with configurable weights balances both objectives to provide accurate and personalized restaurant recommendations.
+The architecture consists of two "towers" that process user and restaurant data separately, then performs two distinct but complementary tasks: rating prediction and similarity-based retrieval based on each tower's embeddings. The combined loss function with configurable weights balances both objectives to provide accurate and personalized restaurant recommendations.
 
 ### Embedding Layer Architecture
 - Utilizes a two-tower model architecture with separate embedding spaces:
