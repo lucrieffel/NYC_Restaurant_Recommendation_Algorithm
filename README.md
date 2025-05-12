@@ -10,9 +10,11 @@
 This project implements a sophisticated recommendation system for New York City restaurants using machine learning techniques and data from the Yelp Public API. The system combines collaborative filtering with content-based features to provide personalized restaurant recommendations based on user preferences, cuisine types, and neighborhood data.
 
 ## Website(draft) Demo
+
 <div align="center">
   <a href="https://youtu.be/ngF1s4eexYY" target="_blank">
-    <img src="https://img.youtube.com/vi/ngF1s4eexYY/maxresdefault.jpg" alt="NYC Restaurant Recommendation System Demo" width="640" height="360" border="0" />
+    <img src="gifs/taste_ai_demo.gif" alt="NYC Restaurant Recommendation System Demo" width="640" />
+    <p><strong>▶️ Click to watch clip video on YouTube</strong></p>
   </a>
 </div>
 
