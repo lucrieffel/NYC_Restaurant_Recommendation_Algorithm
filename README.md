@@ -105,7 +105,7 @@ v                                                      v
                 Restaurant Recommendations
 ```
 
-The architecture consists of two "towers" that process user and restaurant data separately, then performs two distinct but complementary tasks: rating prediction and similarity-based retrieval based on each tower's embeddings. The combined loss function with configurable weights balances both objectives to provide accurate and personalized restaurant recommendations.
+The architecture consists of two "towers" that process user and restaurant data separately, then performs two distinct but complementary tasks. The tasks are rating prediction and retrieval based on each tower's embeddings. The combined loss function with configurable weights balances both objectives with a weight of `model = YelpRecModel(rating_weight=0.3, retrieval_weight=0.7)` to provide accurate and personalized restaurant recommendations with a heavy weight on the retrieval task.
 
 ### Embedding Layer Architecture
 - Utilizes a two-tower model architecture with separate embedding spaces:
@@ -164,6 +164,95 @@ The data cleaning pipeline (`clean_data.py`) prepares the raw API data for the r
 ## Model Deployment
 The trained model is exported in TensorFlow.js format (`model.json` and weights) for browser-based inference, enabling real-time recommendations without requiring server-side computation for each prediction.
 
+
+## Dataset Description
+
+This project contains two primary cleaned datasets that serve as the foundation for the recommendation system:
+
+### cleaned_yelp_restaurants.csv
+
+<div align="center">
+  <table>
+    <tr>
+      <th colspan="2" style="text-align:center; background-color:#f8f8f8;">Restaurant Dataset Overview</th>
+    </tr>
+    <tr>
+      <td width="30%"><b>File Size</b></td>
+      <td>4.0 MB</td>
+    </tr>
+    <tr>
+      <td><b>Number of Records</b></td>
+      <td>~7,300 unique NYC restaurants</td>
+    </tr>
+    <tr>
+      <td><b>Coverage</b></td>
+      <td>All 5 NYC boroughs with 25+ neighborhoods</td>
+    </tr>
+    <tr>
+      <td><b>Cuisine Types</b></td>
+      <td>200+ distinct cuisine categories</td>
+    </tr>
+  </table>
+</div>
+
+#### Key Fields
+
+| Field Name | Description | Data Type |
+|------------|-------------|-----------|
+| `restaurant_id` | Unique Yelp ID for each restaurant | string |
+| `restaurant_name` | Normalized name of the restaurant | string |
+| `categories` | Comma-separated list of cuisine types | string |
+| `price_num` | Numerical representation of price level (1-4) | float |
+| `rating` | Average Yelp rating (1-5) | float |
+| `review_count` | Number of reviews on Yelp | integer |
+| `review_count_bins` | Binned categories of review counts | categorical |
+| `neighborhood` | NYC neighborhood | string |
+| `location_zip_code` | Restaurant ZIP code | string |
+| `coordinates_latitude` | Latitude coordinate | float |
+| `coordinates_longitude` | Longitude coordinate | float |
+| `cuisine_0`, `cuisine_1`, `cuisine_2` | Extracted primary cuisine types | string |
+
+### cleaned_yelp_reviews.csv
+
+<div align="center">
+  <table>
+    <tr>
+      <th colspan="2" style="text-align:center; background-color:#f8f8f8;">Review Dataset Overview</th>
+    </tr>
+    <tr>
+      <td width="30%"><b>File Size</b></td>
+      <td>21 MB</td>
+    </tr>
+    <tr>
+      <td><b>Number of Records</b></td>
+      <td>~20,000 user reviews</td>
+    </tr>
+    <tr>
+      <td><b>Average Reviews per Restaurant</b></td>
+      <td>2.7 reviews</td>
+    </tr>
+    <tr>
+      <td><b>Rating Distribution</b></td>
+      <td>Skewed toward positive (4-5 star) ratings</td>
+    </tr>
+  </table>
+</div>
+
+#### Key Fields
+
+| Field Name | Description | Data Type |
+|------------|-------------|-----------|
+| `review_id` | Unique identifier for review | string |
+| `restaurant_id` | Restaurant being reviewed (foreign key) | string |
+| `user_id` | Yelp user ID of reviewer | string |
+| `user_name` | Username of reviewer | string |
+| `rating` | User rating (1-5) | float |
+| `text` | Cleaned review text content | string |
+| `time_created` | Timestamp of review | datetime |
+| `queried_date` | Date when review was scraped | date |
+
+Both datasets are extensively pre-processed to ensure consistency, handle missing values, and optimize for model training. Adding, validating, and cleaning data will be done separately via AWS Lambda and PostgreSQL. 
+
 ## References & Acknowledgments
 - TensorFlow TFRS Tutorial: https://github.com/tensorflow/recommenders/blob/main/docs/examples/multitask.ipynb
 - Taufik Azri: https://github.com/fickaz/TFRS-on-Retail-Data/blob/main/README.md
@@ -172,4 +261,4 @@ The trained model is exported in TensorFlow.js format (`model.json` and weights)
 
 All restaurant data is scraped directly from the Yelp API in accordance with their terms of use. Data is not used in any way for commercial purposes.
 
-Developed with assistance from ChatGPT 4.0 and GitHub CoPilot
+Developed with assistance from ChatGPT 4.0, v0, Claude 3.7 Sonnet, and GitHub CoPilot
