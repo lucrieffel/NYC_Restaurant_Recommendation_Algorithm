@@ -6,6 +6,15 @@
   <img src="images/tensorflow_logo.png" alt="TensorFlow Logo" height="80"/>
 </div>
 
+<p align="center">
+  <img src="https://img.shields.io/badge/ML-Restaurant%20Recommendation%20System-blue" alt="Restaurant Recommendation"/>
+  <img src="https://img.shields.io/badge/TensorFlow-2.0+-orange" alt="TensorFlow"/>
+  <img src="https://img.shields.io/badge/Python-3.7+-green" alt="Python"/>
+  <img src="https://img.shields.io/badge/TFRS-Multitask%20Model-red" alt="TFRS"/>
+  <img src="https://img.shields.io/badge/Firebase-Realtime-yellow" alt="Firebase"/>
+  <img src="https://img.shields.io/badge/TypeScript-4.0+-blue" alt="TypeScript"/>
+</p>
+
 ## Project Overview
 This project implements a sophisticated recommendation system for New York City restaurants using machine learning techniques and data from the Yelp Public API. The system combines collaborative filtering with content-based features to provide personalized restaurant recommendations based on user preferences, cuisine types, and neighborhood data.
 
