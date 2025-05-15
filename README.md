@@ -11,7 +11,7 @@
   <img src="https://img.shields.io/badge/TensorFlow-2.0+-orange" alt="TensorFlow"/>
   <img src="https://img.shields.io/badge/Python-3.7+-green" alt="Python"/>
   <img src="https://img.shields.io/badge/TFRS-Multitask%20Model-red" alt="TFRS"/>
-  <img src="https://img.shields.io/badge/Firebase-Realtime-yellow" alt="Firebase"/>
+  <img src="https://img.shields.io/badge/Firebase-Firestore-yellow" alt="Firebase"/>
   <img src="https://img.shields.io/badge/TypeScript-4.0+-blue" alt="TypeScript"/>
 </p>
 
